@@ -14,6 +14,10 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
         {{ cta }}
       </button>
     </div>
+
+    <div class="my-8 bg-amber-700 p-4 text-white rounded">
+      <p>Some additional content can go here.</p>
+    </div>
   `,
 })
 export class Hero {
